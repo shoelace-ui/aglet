@@ -1,0 +1,15 @@
+{
+  "name": "aglet",
+  "repo": "shoelace-ui/aglet",
+  "description": "Base UI",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "necolas/normalize.css"
+  },
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "dist/index.css"
+  ]
+}
