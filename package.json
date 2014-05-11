@@ -1,16 +1,31 @@
 {
   "name": "aglet",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Base UI",
   "main": "index.js",
-  "repository": "https://github.com/shoelace-ui/aglet.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shoelace-ui/aglet.git"
+   },
   "keywords": [
-    "stylus"
+    "shoelace"
   ],
   "author": "Michael Andrew Vanasse <mail@mndvns.com>",
   "contributors": [
     "Josh Faul <josh.faul@gmail.com>"
   ],
+  "dependencies": {
+    "shoelace-ui-media-queries": "git+https://github.com/shoelace-ui/media-queries.git",
+    "shoelace-ui-font-family": "git+https://github.com/shoelace-ui/font-family.git",
+    "shoelace-ui-line-height": "git+https://github.com/shoelace-ui/line-height.git",
+    "shoelace-ui-font-size": "git+https://github.com/shoelace-ui/font-size.git",
+    "shoelace-ui-headings": "git+https://github.com/shoelace-ui/headings.git",
+    "shoelace-ui-padding": "git+https://github.com/shoelace-ui/padding.git",
+    "shoelace-ui-button": "git+https://github.com/shoelace-ui/button.git",
+    "shoelace-ui-input": "git+https://github.com/shoelace-ui/input.git",
+    "shoelace-ui-gray": "git+https://github.com/shoelace-ui/gray.git",
+    "shoelace-ui-hero": "git+https://github.com/shoelace-ui/hero.git"
+  },
   "devDependencies": {
     "stylus": "*"
   },
