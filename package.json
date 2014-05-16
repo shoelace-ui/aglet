@@ -16,9 +16,9 @@
   ],
   "dependencies": {
     "shoelace-ui-button": "git+https://github.com/shoelace-ui/button.git",
+    "shoelace-ui-colors": "git+https://github.com/shoelace-ui/colors.git",
     "shoelace-ui-font-family": "git+https://github.com/shoelace-ui/font-family.git",
     "shoelace-ui-font-size": "git+https://github.com/shoelace-ui/font-size.git",
-    "shoelace-ui-gray": "git+https://github.com/shoelace-ui/gray.git",
     "shoelace-ui-headings": "git+https://github.com/shoelace-ui/headings.git",
     "shoelace-ui-hero": "git+https://github.com/shoelace-ui/hero.git",
     "shoelace-ui-input": "git+https://github.com/shoelace-ui/input.git",
@@ -27,6 +27,7 @@
     "shoelace-ui-padding": "git+https://github.com/shoelace-ui/padding.git",
     "shoelace-ui-positions": "git+https://github.com/shoelace-ui/positions.git",
     "shoelace-ui-size": "git+https://github.com/shoelace-ui/size.git",
+    "shoelace-ui-reset": "git+https://github.com/shoelace-ui/reset.git",
     "shoelace-ui-transition-duration": "git+https://github.com/shoelace-ui/transition-duration.git",
     "shoelace-ui-transition-property": "git+https://github.com/shoelace-ui/transition-property.git",
     "shoelace-ui-transition": "git+https://github.com/shoelace-ui/transition.git",
