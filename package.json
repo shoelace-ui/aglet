@@ -7,24 +7,25 @@
     "type": "git",
     "url": "https://github.com/shoelace-ui/aglet.git"
    },
-  "keywords": [
-    "shoelace"
-  ],
+  "keywords": ["shoelace", "theme"],
   "author": "Michael Andrew Vanasse <mail@mndvns.com>",
   "contributors": [
     "Josh Faul <josh.faul@gmail.com>"
   ],
   "dependencies": {
     "shoelace-ui-button": "git+https://github.com/shoelace-ui/button.git",
+    "shoelace-ui-border-radius": "git+https://github.com/shoelace-ui/border-radius.git",
     "shoelace-ui-colors": "git+https://github.com/shoelace-ui/colors.git",
     "shoelace-ui-font-family": "git+https://github.com/shoelace-ui/font-family.git",
     "shoelace-ui-font-size": "git+https://github.com/shoelace-ui/font-size.git",
     "shoelace-ui-headings": "git+https://github.com/shoelace-ui/headings.git",
     "shoelace-ui-hero": "git+https://github.com/shoelace-ui/hero.git",
     "shoelace-ui-input": "git+https://github.com/shoelace-ui/input.git",
+    "shoelace-ui-label": "git+https://github.com/shoelace-ui/label.git",
     "shoelace-ui-line-height": "git+https://github.com/shoelace-ui/line-height.git",
     "shoelace-ui-media-queries": "git+https://github.com/shoelace-ui/media-queries.git",
     "shoelace-ui-padding": "git+https://github.com/shoelace-ui/padding.git",
+    "shoelace-ui-palette-solarized": "git+https://github.com/shoelace-ui/palette-solarized.git",
     "shoelace-ui-positions": "git+https://github.com/shoelace-ui/positions.git",
     "shoelace-ui-size": "git+https://github.com/shoelace-ui/size.git",
     "shoelace-ui-reset": "git+https://github.com/shoelace-ui/reset.git",
