@@ -16,7 +16,6 @@
     "shoelace-ui-button": "git+https://github.com/shoelace-ui/button.git",
     "shoelace-ui-border-radius": "git+https://github.com/shoelace-ui/border-radius.git",
     "shoelace-ui-clear": "git+https://github.com/shoelace-ui/clear.git",
-    "shoelace-ui-clearfix": "git+https://github.com/shoelace-ui/clearfix.git",
     "shoelace-ui-colors": "git+https://github.com/shoelace-ui/colors.git",
     "shoelace-ui-filter": "git+https://github.com/shoelace-ui/filter.git",
     "shoelace-ui-font-family": "git+https://github.com/shoelace-ui/font-family.git",
