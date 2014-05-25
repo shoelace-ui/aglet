@@ -6,8 +6,11 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/shoelace-ui/aglet.git"
-   },
-  "keywords": ["shoelace", "theme"],
+  },
+  "keywords": [
+    "shoelace",
+    "theme"
+  ],
   "author": "Michael Andrew Vanasse <mail@mndvns.com>",
   "contributors": [
     "Josh Faul <josh.faul@gmail.com>"
@@ -19,6 +22,7 @@
     "shoelace-ui-border-radius": "git+https://github.com/shoelace-ui/border-radius.git",
     "shoelace-ui-clear": "git+https://github.com/shoelace-ui/clear.git",
     "shoelace-ui-colors": "git+https://github.com/shoelace-ui/colors.git",
+    "shoelace-ui-container": "git+https://github.com/shoelace-ui/container.git",
     "shoelace-ui-filter": "git+https://github.com/shoelace-ui/filter.git",
     "shoelace-ui-font": "git+https://github.com/shoelace-ui/font.git",
     "shoelace-ui-font-family": "git+https://github.com/shoelace-ui/font-family.git",
@@ -26,6 +30,7 @@
     "shoelace-ui-html": "git+https://github.com/shoelace-ui/html.git",
     "shoelace-ui-headings": "git+https://github.com/shoelace-ui/headings.git",
     "shoelace-ui-hero": "git+https://github.com/shoelace-ui/hero.git",
+    "shoelace-ui-hr": "git+https://github.com/shoelace-ui/hr.git",
     "shoelace-ui-input": "git+https://github.com/shoelace-ui/input.git",
     "shoelace-ui-label": "git+https://github.com/shoelace-ui/label.git",
     "shoelace-ui-line-height": "git+https://github.com/shoelace-ui/line-height.git",
@@ -42,6 +47,7 @@
     "shoelace-ui-user-select": "git+https://github.com/shoelace-ui/user-select.git"
   },
   "devDependencies": {
+    "marked": "^0.3.2",
     "serve": "^1.4.0",
     "stylus": "^0.44.0"
   },
