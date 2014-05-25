@@ -13,6 +13,7 @@
     "Josh Faul <josh.faul@gmail.com>"
   ],
   "dependencies": {
+    "shoelace-ui-body": "git+https://github.com/shoelace-ui/body.git",
     "shoelace-ui-button": "git+https://github.com/shoelace-ui/button.git",
     "shoelace-ui-border-radius": "git+https://github.com/shoelace-ui/border-radius.git",
     "shoelace-ui-clear": "git+https://github.com/shoelace-ui/clear.git",
