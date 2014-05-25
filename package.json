@@ -38,7 +38,8 @@
     "shoelace-ui-user-select": "git+https://github.com/shoelace-ui/user-select.git"
   },
   "devDependencies": {
-    "stylus": "*"
+    "serve": "^1.4.0",
+    "stylus": "^0.44.0"
   },
   "license": "MIT"
 }

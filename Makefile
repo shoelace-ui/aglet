@@ -1,12 +1,8 @@
+PORT ?= 3020
+SERVE ?= ./node_modules/.bin/serve
 
-all: dist/index.css examples
+test:
+	$(SERVE) . --port $(PORT) &
+	open http://localhost:$(PORT)/$@/index.jade
 
-dist/index.css: src/index.styl
-	stylus < $^ > $@
-
-%.html: %.jade
-	jade < $^ > $@
-
-examples: examples/index.html
-
-.PHONY: examples
+.PHONY: test
