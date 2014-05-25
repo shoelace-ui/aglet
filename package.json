@@ -28,6 +28,7 @@
     "shoelace-ui-label": "git+https://github.com/shoelace-ui/label.git",
     "shoelace-ui-line-height": "git+https://github.com/shoelace-ui/line-height.git",
     "shoelace-ui-media-queries": "git+https://github.com/shoelace-ui/media-queries.git",
+    "shoelace-ui-p": "git+https://github.com/shoelace-ui/p.git",
     "shoelace-ui-padding": "git+https://github.com/shoelace-ui/padding.git",
     "shoelace-ui-palette-solarized": "git+https://github.com/shoelace-ui/palette-solarized.git",
     "shoelace-ui-positions": "git+https://github.com/shoelace-ui/positions.git",
