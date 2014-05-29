@@ -15,6 +15,9 @@
   "contributors": [
     "Josh Faul <josh.faul@gmail.com>"
   ],
+  "scripts": {
+    "validate": "echo '\nplease run make before committing' && make -q"
+  },
   "dependencies": {
     "shoelace-ui-a": "git+https://github.com/shoelace-ui/a.git",
     "shoelace-ui-body": "git+https://github.com/shoelace-ui/body.git",
@@ -51,7 +54,8 @@
   "devDependencies": {
     "marked": "^0.3.2",
     "serve": "^1.4.0",
-    "stylus": "^0.45.0"
+    "stylus": "^0.45.0",
+    "precommit-hook": "^0.4.1"
   },
   "license": "MIT"
 }
