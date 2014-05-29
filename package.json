@@ -34,6 +34,7 @@
     "shoelace-ui-input": "git+https://github.com/shoelace-ui/input.git",
     "shoelace-ui-label": "git+https://github.com/shoelace-ui/label.git",
     "shoelace-ui-line-height": "git+https://github.com/shoelace-ui/line-height.git",
+    "shoelace-ui-lists": "git+https://github.com/shoelace-ui/lists.git",
     "shoelace-ui-media-queries": "git+https://github.com/shoelace-ui/media-queries.git",
     "shoelace-ui-p": "git+https://github.com/shoelace-ui/p.git",
     "shoelace-ui-padding": "git+https://github.com/shoelace-ui/padding.git",
