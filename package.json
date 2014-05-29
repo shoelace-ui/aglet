@@ -42,6 +42,7 @@
     "shoelace-ui-positions": "git+https://github.com/shoelace-ui/positions.git",
     "shoelace-ui-size": "git+https://github.com/shoelace-ui/size.git",
     "shoelace-ui-reset": "git+https://github.com/shoelace-ui/reset.git",
+    "shoelace-ui-textarea": "git+https://github.com/shoelace-ui/textarea.git",
     "shoelace-ui-transition-duration": "git+https://github.com/shoelace-ui/transition-duration.git",
     "shoelace-ui-transition-property": "git+https://github.com/shoelace-ui/transition-property.git",
     "shoelace-ui-transition": "git+https://github.com/shoelace-ui/transition.git",
