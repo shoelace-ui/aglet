@@ -1,0 +1,9 @@
+{
+  "name": "aglet",
+  "repo": "shoelace-ui/aglet",
+  "version": "0.1.0",
+  "styles": [
+    "dist/index.css"
+  ],
+  "remotes": []
+}
