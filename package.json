@@ -23,6 +23,7 @@
     "shoelace-ui-body": "git+https://github.com/shoelace-ui/body.git",
     "shoelace-ui-button": "git+https://github.com/shoelace-ui/button.git",
     "shoelace-ui-border-radius": "git+https://github.com/shoelace-ui/border-radius.git",
+    "shoelace-ui-center-block": "git+https://github.com/shoelace-ui/center-block.git",
     "shoelace-ui-clear": "git+https://github.com/shoelace-ui/clear.git",
     "shoelace-ui-colors": "git+https://github.com/shoelace-ui/colors.git",
     "shoelace-ui-container": "git+https://github.com/shoelace-ui/container.git",
