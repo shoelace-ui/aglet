@@ -1,17 +1,6 @@
 /**
  * Module dependencies
  */
-.clearfix {
-  *zoom: 1;
-}
-.clearfix:before,
-.clearfix:after {
-  content: " ";
-  display: table;
-}
-.clearfix:after {
-  clear: both;
-}
 html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -29,7 +18,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #3797db;
+  color: #429ddd;
   text-decoration: underline;
 }
 a:focus {
@@ -100,7 +89,7 @@ hr {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.428571429;
-  margin-bottom: 0;
+  margin: 0;
   padding: 6px 12px;
   text-align: center;
   text-decoration: none;
@@ -353,5 +342,23 @@ label {
 }
 .container:after {
   clear: both;
+}
+.badge {
+  display: inline-block;
+  min-width: 10px;
+  padding: 2px 5px;
+  font-size: 12px;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  background-color: #999;
+  border-radius: 10px;
+  margin-left: 8px;
+  color: #fff;
+}
+.badge:empty {
+  display: none;
 }
 

@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "shoelace-ui-a": "git+https://github.com/shoelace-ui/a.git",
+    "shoelace-ui-badge": "git+https://github.com/shoelace-ui/badge.git",
     "shoelace-ui-body": "git+https://github.com/shoelace-ui/body.git",
     "shoelace-ui-button": "git+https://github.com/shoelace-ui/button.git",
     "shoelace-ui-border-radius": "git+https://github.com/shoelace-ui/border-radius.git",
