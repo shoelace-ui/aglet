@@ -45,6 +45,7 @@
     "shoelace-ui-padding": "git+https://github.com/shoelace-ui/padding.git",
     "shoelace-ui-palette-solarized": "git+https://github.com/shoelace-ui/palette-solarized.git",
     "shoelace-ui-positions": "git+https://github.com/shoelace-ui/positions.git",
+    "shoelace-ui-select": "git+https://github.com/shoelace-ui/select.git",
     "shoelace-ui-size": "git+https://github.com/shoelace-ui/size.git",
     "shoelace-ui-reset": "git+https://github.com/shoelace-ui/reset.git",
     "shoelace-ui-textarea": "git+https://github.com/shoelace-ui/textarea.git",
