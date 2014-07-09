@@ -38,6 +38,7 @@
     "shoelace-ui-hr": "git+https://github.com/shoelace-ui/hr.git",
     "shoelace-ui-input": "git+https://github.com/shoelace-ui/input.git",
     "shoelace-ui-label": "git+https://github.com/shoelace-ui/label.git",
+    "shoelace-ui-legend": "git+https://github.com/shoelace-ui/legend.git",
     "shoelace-ui-line-height": "git+https://github.com/shoelace-ui/line-height.git",
     "shoelace-ui-lists": "git+https://github.com/shoelace-ui/lists.git",
     "shoelace-ui-media-queries": "git+https://github.com/shoelace-ui/media-queries.git",
