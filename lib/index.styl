@@ -38,11 +38,17 @@
 @require 'shoelace-ui-hr'
 @require 'shoelace-ui-button'
 @require 'shoelace-ui-lists'
-@require 'shoelace-ui-input'
-@require 'shoelace-ui-select'
-@require 'shoelace-ui-textarea'
-@require 'shoelace-ui-label'
-@require 'shoelace-ui-legend'
+if aglet--require-select isnt false
+  @require 'shoelace-ui-select'
+if aglet--require-textarea isnt false
+  @require 'shoelace-ui-textarea'
+if aglet--require-label isnt false
+  @require 'shoelace-ui-label'
+if aglet--require-legend isnt false
+  @require 'shoelace-ui-legend'
+if aglet--require-input isnt false
+  @require 'shoelace-ui-input'
+
 
 // helper styles
 
