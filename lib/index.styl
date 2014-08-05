@@ -36,8 +36,10 @@
 @require 'shoelace-ui-p'
 @require 'shoelace-ui-headings'
 @require 'shoelace-ui-hr'
-@require 'shoelace-ui-button'
-@require 'shoelace-ui-lists'
+if aglet--require-button isnt false
+  @require 'shoelace-ui-button'
+if aglet--require-lists isnt false
+  @require 'shoelace-ui-lists'
 if aglet--require-select isnt false
   @require 'shoelace-ui-select'
 if aglet--require-textarea isnt false
