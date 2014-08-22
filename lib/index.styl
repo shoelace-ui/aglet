@@ -36,21 +36,13 @@
 @require 'shoelace-ui-p'
 @require 'shoelace-ui-headings'
 @require 'shoelace-ui-hr'
-if aglet--require-button isnt false
-  @require 'shoelace-ui-button'
-if aglet--require-lists isnt false
-  @require 'shoelace-ui-lists'
-if aglet--require-select isnt false
-  @require 'shoelace-ui-select'
-if aglet--require-textarea isnt false
-  @require 'shoelace-ui-textarea'
-if aglet--require-label isnt false
-  @require 'shoelace-ui-label'
-if aglet--require-legend isnt false
-  @require 'shoelace-ui-legend'
-if aglet--require-input isnt false
-  @require 'shoelace-ui-input'
 
+
+$aglet-requires = 'button' 'lists' 'select' 'textarea' 'label' 'legend' 'input'
+
+for req in $aglet-requires
+  if lookup('aglet—-require-' + req) isnt false
+    @require 'shoelace-ui-' + req
 
 // helper styles
 
