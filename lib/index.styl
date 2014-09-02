@@ -1,63 +1,63 @@
 /**
- * Module dependencies
+ * Initialize empty list
  */
 
-// variables
+aglet--requires = ()
 
-@require 'shoelace-ui-palette-solarized'
-@require 'shoelace-ui-colors'
+/**
+ * Look to see if `req` is false, otherwise `@require` it.
+ * @param {String} req
+ */
+
+aglet--require(req)
+  if (lookup('aglet--require-' + req)) isnt false
+    append(aglet--requires, req)
+
+// variables
+aglet--require('palette-solarized')
+aglet--require('colors')
 
 // transparent mixins
-
-@require 'shoelace-ui-line-height'
-@require 'shoelace-ui-font-family'
-@require 'shoelace-ui-font-size'
-@require 'shoelace-ui-font'
-@require 'shoelace-ui-padding'
-@require 'shoelace-ui-clear'
-@require 'shoelace-ui-filter'
-@require 'shoelace-ui-transition-duration'
-@require 'shoelace-ui-transition-property'
-@require 'shoelace-ui-transition'
-@require 'shoelace-ui-user-select'
+aglet--require('line-height')
+aglet--require('font-family')
+aglet--require('font-size')
+aglet--require('font')
+aglet--require('padding')
+aglet--require('clear')
+aglet--require('filter')
+aglet--require('transition-duration')
+aglet--require('transition-property')
+aglet--require('transition')
+aglet--require('user-select')
 
 // opaque mixins
-
-@require 'shoelace-ui-center-block'
-@require 'shoelace-ui-positions'
-@require 'shoelace-ui-reset'
-@require 'shoelace-ui-size'
+aglet--require('center-block')
+aglet--require('positions')
+aglet--require('reset')
+aglet--require('size')
 
 // tag styles
-
-@require 'shoelace-ui-html'
-@require 'shoelace-ui-body'
-@require 'shoelace-ui-a'
-@require 'shoelace-ui-p'
-@require 'shoelace-ui-headings'
-@require 'shoelace-ui-hr'
-if aglet--require-button isnt false
-  @require 'shoelace-ui-button'
-if aglet--require-lists isnt false
-  @require 'shoelace-ui-lists'
-if aglet--require-select isnt false
-  @require 'shoelace-ui-select'
-if aglet--require-textarea isnt false
-  @require 'shoelace-ui-textarea'
-if aglet--require-label isnt false
-  @require 'shoelace-ui-label'
-if aglet--require-legend isnt false
-  @require 'shoelace-ui-legend'
-if aglet--require-input isnt false
-  @require 'shoelace-ui-input'
-
+aglet--require('html')
+aglet--require('body')
+aglet--require('a')
+aglet--require('p')
+aglet--require('headings')
+aglet--require('hr')
+aglet--require('button')
+aglet--require('lists')
+aglet--require('select')
+aglet--require('textarea')
+aglet--require('label')
+aglet--require('legend')
+aglet--require('input')
 
 // helper styles
-
-@require 'shoelace-ui-container'
-@require 'shoelace-ui-hero'
-@require 'shoelace-ui-badge'
+aglet--require('container')
+aglet--require('hero')
+aglet--require('badge')
 
 // misc
+aglet--require('media-queries')
 
-@require 'shoelace-ui-media-queries'
+for req, i in aglet--requires
+  @require 'shoelace-ui-' + req

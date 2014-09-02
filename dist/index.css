@@ -21,6 +21,9 @@ a:focus {
   color: #429ddd;
   text-decoration: underline;
 }
+a:visited {
+  color: #3389c5;
+}
 a:focus {
   outline: thin dotted;
 }
@@ -212,7 +215,6 @@ ul ol,
 ol ol {
   margin-bottom: 0;
 }
-select,
 input[type="text"],
 input[type="password"],
 input[type="datetime"],
@@ -227,27 +229,28 @@ input[type="url"],
 input[type="search"],
 input[type="tel"],
 input[type="color"],
+select,
 textarea {
-  display: block;
-  box-sizing: border-box;
-  border-style: solid;
-  border-width: 1px;
+  background-color: #fff;
   border-color: #b4bfc1;
   border-radius: 2px;
-  background-color: #fff;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.055);
+  box-sizing: border-box;
   color: #002b36;
+  display: block;
   font-size: 14px;
   height: 34px;
   line-height: 1.428571429;
+  margin-bottom: 6px;
   padding: 6px 12px;
   vertical-align: middle;
   width: 100%;
-  box-shadow: inset 0 1px 1px rgba(0,0,0,0.055);
   transition-property: border-color box-shadow;
   transition-duration: 150ms;
   transition-timing-function: ease-in-out;
 }
-select[disabled],
 input[type="text"][disabled],
 input[type="password"][disabled],
 input[type="datetime"][disabled],
@@ -262,8 +265,8 @@ input[type="url"][disabled],
 input[type="search"][disabled],
 input[type="tel"][disabled],
 input[type="color"][disabled],
+select[disabled],
 textarea[disabled],
-select[readonly],
 input[type="text"][readonly],
 input[type="password"][readonly],
 input[type="datetime"][readonly],
@@ -278,8 +281,8 @@ input[type="url"][readonly],
 input[type="search"][readonly],
 input[type="tel"][readonly],
 input[type="color"][readonly],
+select[readonly],
 textarea[readonly],
-fieldset[disabled] select,
 fieldset[disabled] input[type="text"],
 fieldset[disabled] input[type="password"],
 fieldset[disabled] input[type="datetime"],
@@ -294,11 +297,11 @@ fieldset[disabled] input[type="url"],
 fieldset[disabled] input[type="search"],
 fieldset[disabled] input[type="tel"],
 fieldset[disabled] input[type="color"],
+fieldset[disabled] select,
 fieldset[disabled] textarea {
   cursor: not-allowed;
   background-color: #93a1a1;
 }
-select:focus,
 input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="datetime"]:focus,
@@ -313,11 +316,16 @@ input[type="url"]:focus,
 input[type="search"]:focus,
 input[type="tel"]:focus,
 input[type="color"]:focus,
+select:focus,
 textarea:focus {
   border-color: #9ba9ad;
   box-shadow: inset 0 1px 1px rgba(0,0,0,0.055), 0 0 8px #9ba9ad;
   outline: 0;
   outline-offset: -2px;
+}
+select[multiple],
+select[size] {
+  height: auto;
 }
 textarea {
   overflow: auto;
@@ -327,6 +335,17 @@ label {
   display: inline-block;
   margin-bottom: 6px;
   font-weight: bold;
+}
+legend {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 20px;
+  font-size: 21px;
+  line-height: inherit;
+  color: #586e75;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5;
 }
 .container {
   *zoom: 1;
