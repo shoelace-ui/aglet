@@ -5,7 +5,8 @@
 aglet--requires = ()
 
 /**
- * Look to see if `req` is false, otherwise `@require` it.
+ * Look to see if `req` is false, otherwise append to
+ * list of requires.
  * @param {String} req
  */
 
@@ -59,5 +60,5 @@ aglet--require('badge')
 // misc
 aglet--require('media-queries')
 
-for req, i in aglet--requires
+for req in aglet--requires
   @require 'shoelace-ui-' + req
