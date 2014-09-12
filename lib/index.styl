@@ -17,6 +17,7 @@ aglet--require(req)
 // variables
 aglet--require('palette-solarized')
 aglet--require('colors')
+aglet--require('brand')
 
 // transparent mixins
 aglet--require('line-height')
@@ -24,6 +25,7 @@ aglet--require('font-family')
 aglet--require('font-size')
 aglet--require('font')
 aglet--require('padding')
+aglet--require('placeholder')
 aglet--require('clear')
 aglet--require('filter')
 aglet--require('transition-duration')
@@ -61,4 +63,4 @@ aglet--require('badge')
 aglet--require('media-queries')
 
 for req in aglet--requires
-  @require '../node_modules/shoelace-ui-' + req
+  @require 'shoelace-ui-' + req

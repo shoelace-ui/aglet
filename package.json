@@ -1,6 +1,6 @@
 {
   "name": "shoelace-ui-aglet",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Base UI",
   "main": "index.js",
   "repository": {
@@ -13,7 +13,8 @@
   ],
   "author": "Michael Andrew Vanasse <mail@mndvns.com>",
   "contributors": [
-    "Josh Faul <josh.faul@gmail.com>"
+    "Josh Faul <josh.faul@gmail.com>",
+    "Brannon Lucas <brannonlucas@gmail.com>"
   ],
   "scripts": {
     "validate": "echo '\nplease run make before committing' && make -q"
@@ -22,8 +23,9 @@
     "shoelace-ui-a": "git+https://github.com/shoelace-ui/a.git",
     "shoelace-ui-badge": "git+https://github.com/shoelace-ui/badge.git",
     "shoelace-ui-body": "git+https://github.com/shoelace-ui/body.git",
-    "shoelace-ui-button": "git+https://github.com/shoelace-ui/button.git",
     "shoelace-ui-border-radius": "git+https://github.com/shoelace-ui/border-radius.git",
+    "shoelace-ui-brand": "git+https://github.com/shoelace-ui/brand.git",
+    "shoelace-ui-button": "git+https://github.com/shoelace-ui/button.git",
     "shoelace-ui-center-block": "git+https://github.com/shoelace-ui/center-block.git",
     "shoelace-ui-clear": "git+https://github.com/shoelace-ui/clear.git",
     "shoelace-ui-colors": "git+https://github.com/shoelace-ui/colors.git",
@@ -43,6 +45,7 @@
     "shoelace-ui-lists": "git+https://github.com/shoelace-ui/lists.git",
     "shoelace-ui-media-queries": "git+https://github.com/shoelace-ui/media-queries.git",
     "shoelace-ui-p": "git+https://github.com/shoelace-ui/p.git",
+    "shoelace-ui-placeholder": "git+https://github.com/shoelace-ui/placeholder.git",
     "shoelace-ui-padding": "git+https://github.com/shoelace-ui/padding.git",
     "shoelace-ui-palette-solarized": "git+https://github.com/shoelace-ui/palette-solarized.git",
     "shoelace-ui-positions": "git+https://github.com/shoelace-ui/positions.git",
