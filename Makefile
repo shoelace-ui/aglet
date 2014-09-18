@@ -21,7 +21,15 @@ dist/index.css: $(wildcard lib/*) $(wildcard node_modules/shoelace-ui*/*.styl)
 	$(DIST_GUARD)
 	@$(STYLUS) \
 	  --include node_modules \
-	  < lib/index.styl > $@
+	  < lib/index.styl \
+		| cleancss \
+			--s0 \
+			--keep-line-breaks \
+			--skip-advanced \
+			--skip-rebase \
+			--skip-aggressive-merging \
+			--compatibility \
+			> $@
 
 ## Misc
 
